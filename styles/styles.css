@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    font-family: "Inter", sans-serif;
+  }
+  section {
+    padding: 100px 0;
+  }
+  .btn {
+    color: #fff;
+    border-radius: 5px;
+    background: #fd6e0a;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 18px 20px;
+  }
+  
+  /* header section here  */
+  header .container {
+    margin-top: 50px;
+  }
+  
+  .container {
+    width: 82%;
+    max-width: 1320px;
+    margin: auto;
+  }
+  header .section-header {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+      url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  header .content {
+    padding: 177px;
+  }
+  header h3 {
+    color: #fff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+  }
+  header h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+  }
+  
+  /* happy new year categories here  */
+  
+  /* section{
+      padding-top: 110px 0;
+  } */
+  .catagoris {
+    text-align: center;
+  }
+  .catagoris-heading .catagoris-65 {
+    color: #f00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+  }
+  .catagoris-heading .catagoris-title {
+    color: #f00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+  }
+  .catagoris-heading .catagoris-title-2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+  }
+  /* midnight area here  */
+  .welcome-2024 {
+    padding-top: 0;
+  }
+  .welcome-2024 .container {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+      url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+  }
+  .content-items .welcome-title {
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    max-width: 650px;
+    margin: auto 0;
+  }
+  .content-items .welcome-description {
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 697px;
+    padding-top: 20px;
+  }
+  .join-btn {
+    margin-top: 48px;
+  }
+  /* New Park Hotel Section  */
+  .hotel .hotel-content {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 0, 0, 0.1) 0%,
+      rgba(255, 0, 0, 0) 100%
+    );
+    text-align: center;
+    padding: 100px;
+  }
+  .hotel .hotel-content h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 15px;
+  }
+  .hotel .hotel-content h3 span {
+    color: #f00;
+  }
+  .hotel-btn {
+    margin-top: 48px;
+  }
+  /* New Best Offer Section Style Here  */
+  
+  .new-offer .new-offer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .new-offer .new-offer-left-h4 {
+    color: #f00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .new-offer .new-offer-left-h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 20px;
+  }
+  .new-offer .new-offer-left-p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 397px;
+    margin-top: 20px;
+  }
+  .new-offer .new-offer-middle-image {
+    width: 30%;
+    height: 30%;
+    padding: 25px;
+    border-radius: 463px;
+    border: 15px solid #f00;
+    margin-top: 80px;
+  }
+  
+  .new-offer .new-offer-right-h4 {
+    color: #f00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .new-offer .new-offer-right-p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+  }
+  /* portfolio styles */
+  
+  .portfolio .portfolio-p {
+    color: rgba(10, 1, 28, 0.6);
+    width: 60%;
+  }
+  
+  .portfolio .portfolio-h4 {
+    color: #f00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .portfolio .portfolio-h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+  }
+  .portfolio .portfolio-p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+  }
+  .portfolio .portfolio-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 48px;
+  }
+  .portfolio .portfolio-item {
+    cursor: pointer;
+    position: relative;
+  }
+  .portfolio .portfolio-item img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .portfolio .portfolio-item {
+    border-radius: 20px;
+    box-sizing: 2px solid black;
+    border: none;
+  }
+  .portfolio .portfolio-item:hover {
+    background: rgba(0, 0, 0, 0.346);
+    opacity: 1;
+  }
+  /* News letter section  */
+  
+  .Subscribe-Newsletter .Subscribe-Newsletter-title {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+  }
+  
+  /* subscribe letter style here  */
+  .letter .Item {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+    text-align: center;
+  }
+  .letter .h-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+  }
+  .letter .p-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 46px;
+  }
+  
+  .letter .input {
+    display: flex;
+    width: 70%;
+    margin: auto;
+  }
+  .letter .input input {
+    padding: 30px 30px;
+    width: 45%;
+    border-radius: 50px 0 0 50px;
+    background: #fff;
+  }
+  .letter .input input,
+  .input .btn {
+    border: none;
+    outline: none;
+    display: inline-block;
+  }
+  .letter .input .btn {
+    width: 30%;
+    border-radius: 0px 50px 50px 0px;
+    background: #f00;
+  }
+  
+  /* footer section here */
+  footer {
+    background: #070211;
+    color: white;
+    padding: 120px 0;
+  }
+  footer .flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+  footer .contact {
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+  }
+  footer .contact img {
+    display: inline-block;
+    margin-bottom: -9px;
+  }
+  footer .footer-social-content {
+    max-width: 35%;
+    margin: auto;
+    padding: 50px 0;
+  }
+  footer .footer-copyright {
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
